@@ -9,7 +9,7 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="relative w-48 h-48 mx-auto mb-8 flex items-center justify-center rounded-full profile-picture-container">
           <img
-            src="/me.png"
+            src="/about-binh/me.png"
             alt="Pedro Machado"
             className="w-[90%] h-[90%] rounded-full object-cover shadow-lg relative z-20"
           />

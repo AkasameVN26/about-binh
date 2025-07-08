@@ -6,7 +6,7 @@ const projects = [
     title: "Website hỗ trợ cá nhân hoá học tập dựa trên AI",
     description:
       "Nền tảng này được thiết kế nhằm nâng cao chất lượng và hiệu quả giáo dục thông qua việc tự động hóa quy trình tạo đề thi, bài tập, đồng thời cá nhân hóa trải nghiệm học tập cho học sinh bằng các gợi ý và phân tích chuyên sâu dựa trên AI. Hệ thống giúp giáo viên dễ dàng quản lý lớp học và theo dõi tiến độ học tập của từng cá nhân, góp phần tối ưu hóa công tác giảng dạy trong kỷ nguyên số.",
-    image: "/projects/project1.png",
+    image: "/about-binh/projects/project1.png",
     tags: ["Angular", ".NET", "MongoDB"],
     demoUrl: "#",
     githubUrl: "#",
@@ -16,7 +16,7 @@ const projects = [
     title: "AIMBOT VALORANT",
     description:
       "Một aimbot tân tiến có độ chính xác và tốc độ phản hồi cực cao đồng thời vô cùng khó bị phát hiện. Mình hứa là cho mục đích giáo dục! :)",
-    image: "/projects/project2.mp4",
+    image: "/about-binh/projects/project2.mp4",
     tags: ["Python", "Kernel", "Hacking"],
     demoUrl: "#",
     githubUrl: "#",
@@ -26,7 +26,7 @@ const projects = [
     title: "Touhou: Goblin Invasion",
     description:
       "Một dự án Game được truyền cảm hứng bối cảnh cùng dàn nhân vật từ series game vô cùng nổi tiếng Touhou Project, kết hợp cùng gameplay Shoot em up độc đáo.",
-    image: "/projects/project3.png",
+    image: "/about-binh/projects/project3.png",
     tags: ["Unity"],
     demoUrl: "https://daindadev.itch.io/touhou-goblins-invasion",
     githubUrl: "#",
