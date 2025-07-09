@@ -23,7 +23,7 @@ export const AboutSection = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <h3 className="text-2xl font-semibold">
-              Một lập trình viên đầy Đam Mê
+              Một Lập Trình Viên đầy Đam Mê
             </h3>
 
             <p className="text-muted-foreground">
