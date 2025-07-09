@@ -52,6 +52,7 @@ const skills = [
 
   // Tools
   { name: "Unity", level: 85, category: "Công cụ" },
+  { name: "Adobe Photoshop/Premiere/Audition", level: 80, category: "Công cụ" },
   { name: "Unreal Engine", level: 70, category: "Công cụ" },
   { name: "Git/GitHub", level: 75, category: "Công cụ" },
   { name: "VS Code", level: 80, category: "Công cụ" },

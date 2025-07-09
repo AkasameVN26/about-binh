@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="relative w-48 h-48 mx-auto mb-8 flex items-center justify-center rounded-full profile-picture-container">
           <img
             src="/about-binh/me.png"
-            alt="Pedro Machado"
+            alt="picture of me"
             className="w-[90%] h-[90%] rounded-full object-cover shadow-lg relative z-20"
           />
         </div>
@@ -31,9 +31,9 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Mình kể chuyện bằng code. Là một nhà phát triển tương lai,mình xây
+            Mình kể chuyện bằng code. Là một nhà phát triển tương lai, mình xây
             dựng những không gian web tương tác và kiến tạo những thế giới game
-            sống động. Nơi này là giao điểm giữa đam mê, logic và sáng tạo của
+            sống động. Đây là nơi hội tụ giữa đam mê, logic và sáng tạo của
             mình.
           </p>
 
@@ -45,10 +45,10 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-sm text-muted-foreground mb-2">
           {" "}
-          Kéo xuống để xem nào!{" "}
+          Kéo xuống để biết thêm về mình!{" "}
         </span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>

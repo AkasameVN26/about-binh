@@ -23,13 +23,13 @@ export const AboutSection = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <h3 className="text-2xl font-semibold">
-              Một nhà phát triển đầy Đam Mê
+              Một lập trình viên đầy Đam Mê
             </h3>
 
             <p className="text-muted-foreground">
-              Là một nhà phát triển với hơn 5 năm kinh nghiệm, mình thổi hồn vào
-              các sản phẩm số, từ những ứng dụng web thích ứng mượt mà trên mọi
-              thiết bị, cho đến những thế giới game đầy mê hoặc.
+              Với hơn 5 năm kinh nghiệm, mình thổi hồn vào các sản phẩm số, từ
+              những ứng dụng web thích ứng mượt mà trên mọi thiết bị, cho đến
+              những thế giới game đầy mê hoặc.
             </p>
 
             <p className="text-muted-foreground">
