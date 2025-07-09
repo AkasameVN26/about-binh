@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 
 const ToastProvider = ToastPrimitives.Provider;
 
+// eslint-disable-next-line react/prop-types
 const ToastViewport = React.forwardRef(({ className, ...props }, ref) => (
   <ToastPrimitives.Viewport
     ref={ref}
@@ -35,6 +36,7 @@ const toastVariants = cva(
   }
 );
 
+// eslint-disable-next-line react/prop-types
 const Toast = React.forwardRef(({ className, variant, ...props }, ref) => {
   return (
     <ToastPrimitives.Root
@@ -46,6 +48,7 @@ const Toast = React.forwardRef(({ className, variant, ...props }, ref) => {
 });
 Toast.displayName = ToastPrimitives.Root.displayName;
 
+// eslint-disable-next-line react/prop-types
 const ToastAction = React.forwardRef(({ className, ...props }, ref) => (
   <ToastPrimitives.Action
     ref={ref}
@@ -58,6 +61,7 @@ const ToastAction = React.forwardRef(({ className, ...props }, ref) => (
 ));
 ToastAction.displayName = ToastPrimitives.Action.displayName;
 
+// eslint-disable-next-line react/prop-types
 const ToastClose = React.forwardRef(({ className, ...props }, ref) => (
   <ToastPrimitives.Close
     ref={ref}
@@ -73,6 +77,7 @@ const ToastClose = React.forwardRef(({ className, ...props }, ref) => (
 ));
 ToastClose.displayName = ToastPrimitives.Close.displayName;
 
+// eslint-disable-next-line react/prop-types
 const ToastTitle = React.forwardRef(({ className, ...props }, ref) => (
   <ToastPrimitives.Title
     ref={ref}
@@ -82,6 +87,7 @@ const ToastTitle = React.forwardRef(({ className, ...props }, ref) => (
 ));
 ToastTitle.displayName = ToastPrimitives.Title.displayName;
 
+// eslint-disable-next-line react/prop-types
 const ToastDescription = React.forwardRef(({ className, ...props }, ref) => (
   <ToastPrimitives.Description
     ref={ref}

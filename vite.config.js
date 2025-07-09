@@ -4,12 +4,16 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 // https://vitejs.dev/config/
+
+// We are using path.resolve(".", "./src") instead of path.resolve(__dirname, "./src")
+// because __dirname is not available in Vite's config file by default.
+
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/about-binh",
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(".", "./src"),
     },
   },
 });

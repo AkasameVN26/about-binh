@@ -50,6 +50,9 @@
   @keyframes meteor {
     0% {
       transform: rotate(215deg) translateX(0);
+      opacity: 0;
+    }
+    10% {
       opacity: 1;
     }
     70% {
@@ -127,11 +130,6 @@
   text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
 }
 
-@utility text-glow {
-  @apply relative;
-  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
-}
-
 @utility card-hover {
   @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
 }
@@ -196,7 +194,7 @@
   @apply absolute;
   position: relative;
   /* Removed overflow: hidden and border-radius: 50% from here */
-  box-shadow: 0 0 -10px 10px rgba(255, 255, 255, 0.5); /* Glow for the head */
+  box-shadow: 0 0 -10px 10px rgba(255, 255, 255, 0.3); /* Glow for the head */
 
   &::before {
     content: "";
@@ -214,16 +212,14 @@
     content: "";
     position: absolute;
     top: 50%;
-    left: -300%; /* Start further left to extend the trail backwards */
-    width: 400%; /* Make the trail longer */
-    height: 6px; /* Thickness of the trail */
-    background: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0)
-    ); /* Flip gradient direction */
-    transform-origin: right center; /* Change origin to right */
-    transform: translateY(-50%) rotate(180deg); /* Keep the same rotation for alignment with meteor path */
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 2px 25px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.3);
+    transform-origin: left center;
+    transform: translateY(-50%) rotate(0deg);
     z-index: 1;
   }
 }
