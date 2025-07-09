@@ -22,7 +22,7 @@ export const StarBackground = () => {
 
   const generateStars = () => {
     const numberOfStars = Math.floor(
-      (window.innerWidth * window.innerHeight) / 10000
+      (window.innerWidth * window.innerHeight) / 8500
     );
 
     const newStars = [];
@@ -42,7 +42,7 @@ export const StarBackground = () => {
   };
 
   const generateMeteors = () => {
-    const numberOfMeteors = 8;
+    const numberOfMeteors = 6;
     const newMeteors = [];
 
     for (let i = 0; i < numberOfMeteors; i++) {
