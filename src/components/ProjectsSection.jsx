@@ -13,16 +13,26 @@ const projects = [
   },
   {
     id: 2,
-    title: "AIMBOT VALORANT",
+    title: "Hệ thống quản lý bệnh viện 4.0 tích hợp Trí tuệ nhân tạo (AI)",
     description:
-      "Một aimbot tân tiến có độ chính xác và tốc độ phản hồi cực cao đồng thời vô cùng khó bị phát hiện. Mình hứa là cho mục đích giáo dục! :)",
+      "Nền tảng tối ưu hoá các luồng làm việc trong bệnh viện phù hợp trong kỷ nguyên số tích hợp AI mạnh mẽ (Đang triển khai dự án NCKH)",
+    image: "/about-binh/projects/project4.png",
+    tags: ["PostgreSQL", "React", "NextJS"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 3,
+    title: "ML AIMBOT VALORANT",
+    description:
+      "Một aimbot tân tiến áp dụng học máy có độ chính xác và tốc độ phản hồi cực cao đồng thời vô cùng khó bị phát hiện, chỉ được sử dụng cho mục đích giáo dục",
     image: "/about-binh/projects/project2.mp4",
     tags: ["Python", "Kernel", "Hacking"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "Touhou: Goblin Invasion",
     description:
       "Một dự án Game được truyền cảm hứng bối cảnh cùng dàn nhân vật từ series game vô cùng nổi tiếng Touhou Project, kết hợp cùng gameplay Shoot em up độc đáo.",

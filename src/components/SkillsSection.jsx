@@ -19,8 +19,8 @@ const skills = [
   {
     name: "Chứng chỉ AI của Samsung Innovation Campus (SIC)",
     institution:
-      "hoàn thành khóa học chuyên sâu về Trí tuệ nhân tạo do Samsung Electronics Việt Nam xác nhận và bảo chứng",
-    year: "2025",
+      "Hoàn thành khóa học chuyên sâu về Trí tuệ nhân tạo do Samsung Electronics Việt Nam xác nhận và bảo chứng",
+    year: "(2025)",
     category: "Học vấn",
   },
 
