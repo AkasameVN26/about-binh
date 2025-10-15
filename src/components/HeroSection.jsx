@@ -31,13 +31,16 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Mình kể chuyện bằng code. Là một nhà phát triển tương lai, mình xây
-            dựng những không gian web tương tác và kiến tạo những thế giới game
-            sống động. Đây là nơi hội tụ giữa đam mê, logic và sáng tạo của
-            mình.
+            Sinh viên K3 khoa Kỹ thuật phần mềm của trường Đại học CMC. Là một
+            nhà phát triển tương lai, mình xây dựng những không gian web tương
+            tác và kiến tạo những thế giới game sống động. Đây là nơi hội tụ
+            giữa đam mê, logic và sáng tạo của mình.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+            <a href="#skills" className="cosmic-button text-glow">
+              Xem hồ sơ kỹ năng
+            </a>
             <a href="#projects" className="cosmic-button text-glow">
               Những dự án của mình
             </a>

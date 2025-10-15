@@ -9,6 +9,14 @@ const skills = [
     year: "(2024-2027)",
     category: "Học vấn",
   },
+
+  {
+    name: "GPA: 3.61 (Tính đến học kỳ Thu năm học 2025-2026)",
+    institution: "Đại Học CMC",
+    year: "(2025)",
+    category: "Học vấn",
+  },
+
   {
     name: "IELTS 8.0",
     institution: "Mình có thể giao tiếp tốt bằng Tiếng Anh",
@@ -25,14 +33,14 @@ const skills = [
   },
 
   {
-    name: "Học chuyên Nga tại",
+    name: "Từng là học sinh khối chuyên Ngữ tại",
     institution: "THPT chuyên Nguyễn Trãi - Hải Dương",
     year: "(2021-2024)",
     category: "Học vấn",
   },
 
   {
-    name: "Thành viên đội tuyển Olympic Tin Học của trường",
+    name: "Thành viên đội tuyển Olympic Tin Học của trường và team Nghiên cứu Khoa học",
     institution: "Đại Học CMC",
     year: "(2025)",
     category: "Học vấn",
