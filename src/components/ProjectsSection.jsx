@@ -25,9 +25,9 @@ const projects = [
     id: 3,
     title: "ML AIMBOT VALORANT",
     description:
-      "Một aimbot tân tiến áp dụng học máy có độ chính xác và tốc độ phản hồi cực cao đồng thời vô cùng khó bị phát hiện, chỉ được sử dụng cho mục đích giáo dục",
+      "Một aimbot tân tiến áp dụng học máy có độ chính xác và tốc độ phản hồi cực cao nhờ áp dụng kĩ thuật học máy để tìm ra dải màu tối ưu trong thời gian thực",
     image: "/about-binh/projects/project2.mp4",
-    tags: ["Python", "Kernel", "Hacking"],
+    tags: ["OpenCV", "NumPy", "Hacking"],
     demoUrl: "#",
     githubUrl: "#",
   },
