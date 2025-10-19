@@ -37,9 +37,9 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Mình rất vui khi bạn đã đọc đến tận đây :) nếu bạn có một ý tưởng thú
-          vị và cảm thấy những kỹ năng của mình có giá trị thì đừng ngần ngại
-          mời mình hợp tác nhé!
+          Mình rất vui khi bạn đã đọc đến tận đây! nếu bạn có một ý tưởng thú vị
+          và cảm thấy những kỹ năng của mình có giá trị thì đừng ngần ngại mời
+          mình hợp tác nhé!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

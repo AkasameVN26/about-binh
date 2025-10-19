@@ -3,24 +3,27 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title:
+      "Hệ thống Quản lý Bệnh viện Thông minh tích hợp AI hỗ trợ Chẩn đoán và Tóm tắt Hồ sơ Y tế",
+    description:
+      "Dự án phát triển Hệ thống Thông tin và Quản lý Bệnh viện toàn diện, số hóa quy trình vận hành trên nền tảng Supabase (PostgreSQL) và Next.js. Được tích hợp AI để hỗ trợ giải trình, tóm tắt hồ sơ y tế và phối hợp chẩn đoán, nâng cao hiệu quả và độ chính xác trong quản lý và điều trị.",
+    image: "/about-binh/projects/project4.png",
+    tags: ["PostgreSQL", "React", "NextJS"],
+    demoUrl: "",
+    githubUrl: "https://github.com/AkasameVN26/cmec-hms-web-app",
+  },
+  {
+    id: 2,
     title: "Website hỗ trợ cá nhân hoá học tập dựa trên AI",
     description:
       "Nền tảng này được thiết kế nhằm nâng cao chất lượng và hiệu quả giáo dục thông qua việc tự động hóa quy trình tạo đề thi, bài tập, đồng thời cá nhân hóa trải nghiệm học tập cho học sinh bằng các gợi ý và phân tích chuyên sâu dựa trên AI. Hệ thống giúp giáo viên dễ dàng quản lý lớp học và theo dõi tiến độ học tập của từng cá nhân, góp phần tối ưu hóa công tác giảng dạy trong kỷ nguyên số.",
     image: "/about-binh/projects/project1.png",
     tags: ["Angular", ".NET", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl:
+      "https://drive.google.com/drive/folders/163Ht97sw9-aLWYJaNji7lrHm0U07hSyE?usp=drive_link",
+    githubUrl: "",
   },
-  {
-    id: 2,
-    title: "Hệ thống quản lý bệnh viện 4.0 tích hợp Trí tuệ nhân tạo (AI)",
-    description:
-      "Nền tảng tối ưu hoá các luồng làm việc trong bệnh viện phù hợp trong kỷ nguyên số tích hợp AI mạnh mẽ (Đang triển khai dự án NCKH)",
-    image: "/about-binh/projects/project4.png",
-    tags: ["PostgreSQL", "React", "NextJS"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+
   {
     id: 3,
     title: "ML AIMBOT VALORANT",
@@ -28,8 +31,8 @@ const projects = [
       "Một aimbot tân tiến áp dụng học máy có độ chính xác và tốc độ phản hồi cực cao nhờ áp dụng kĩ thuật học máy để tìm ra dải màu tối ưu trong thời gian thực",
     image: "/about-binh/projects/project2.mp4",
     tags: ["OpenCV", "NumPy", "Hacking"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "",
+    githubUrl: "",
   },
   {
     id: 4,
@@ -39,7 +42,7 @@ const projects = [
     image: "/about-binh/projects/project3.png",
     tags: ["Unity"],
     demoUrl: "https://daindadev.itch.io/touhou-goblins-invasion",
-    githubUrl: "#",
+    githubUrl: "",
   },
 ];
 
@@ -102,20 +105,34 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20} />
-                    </a>
+                    {project.demoUrl ? (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                    ) : (
+                      <span className="text-muted-foreground opacity-50 cursor-not-allowed">
+                        <ExternalLink size={20} />
+                      </span>
+                    )}
+                    {project.githubUrl ? (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <Github size={20} />
+                      </a>
+                    ) : (
+                      <span className="text-muted-foreground opacity-50 cursor-not-allowed">
+                        <Github size={20} />
+                      </span>
+                    )}
                   </div>
                 </div>
               </div>

@@ -37,12 +37,18 @@ export const HeroSection = () => {
             giữa đam mê, logic và sáng tạo của mình.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#skills" className="cosmic-button text-glow">
+          <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-delay-4">
+            <a
+              href="#skills"
+              className="px-8 py-3 rounded-full border border-primary text-primary font-semibold transition-all duration-300 hover:text-primary-foreground hover:bg-gradient-to-r hover:from-primary hover:to-fuchsia-500 hover:shadow-[0_0_15px_rgba(139,92,246,0.6)] hover:border-transparent"
+            >
               Xem hồ sơ kỹ năng
             </a>
-            <a href="#projects" className="cosmic-button text-glow">
-              Những dự án của mình
+            <a
+              href="#projects"
+              className="px-8 py-3 rounded-full border border-primary text-primary font-semibold transition-all duration-300 hover:text-primary-foreground hover:bg-gradient-to-r hover:from-primary hover:to-fuchsia-500 hover:shadow-[0_0_15px_rgba(139,92,246,0.6)] hover:border-transparent"
+            >
+              Xem dự án nổi bật
             </a>
           </div>
         </div>
