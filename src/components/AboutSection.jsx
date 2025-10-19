@@ -47,8 +47,8 @@ export const AboutSection = () => {
                 Thông tin liên hệ
               </a>
               <a
-                href="/CV 2026.pdf"
-                download="Thai Binh - CV 2026.pdf"
+                href="/CV-2026.pdf"
+                download="Thai Binh - CV-2026.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary font-semibold transition-all duration-300 hover:text-primary-foreground hover:bg-gradient-to-r hover:from-primary hover:to-fuchsia-500 hover:shadow-[0_0_15px_rgba(139,92,246,0.6)] hover:border-transparent"
               >
                 Download CV

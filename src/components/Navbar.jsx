@@ -71,8 +71,8 @@ export const Navbar = () => {
             </a>
           ))}
           <a
-            href="/CV 2026.pdf"
-            download="Thai Binh - CV 2026.pdf"
+            href="/CV-2026.pdf"
+            download="Thai Binh - CV-2026.pdf"
             className="px-4 py-2 rounded-full border border-primary text-primary text-sm font-semibold hover:bg-primary/10 transition-colors duration-300"
           >
             Download CV
