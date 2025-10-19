@@ -1,5 +1,6 @@
 import { Code, Gamepad2, PencilRuler } from "lucide-react";
 import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
+import cvUrl from '/CV-2026.pdf?url';
 
 export const AboutSection = () => {
   const [ref, isIntersecting] = useIntersectionObserver({ threshold: 0.1 });
@@ -47,7 +48,7 @@ export const AboutSection = () => {
                 Thông tin liên hệ
               </a>
               <a
-                href="/CV-2026.pdf"
+                href={cvUrl}
                 download="Thai Binh - CV-2026.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary font-semibold transition-all duration-300 hover:text-primary-foreground hover:bg-gradient-to-r hover:from-primary hover:to-fuchsia-500 hover:shadow-[0_0_15px_rgba(139,92,246,0.6)] hover:border-transparent"
               >

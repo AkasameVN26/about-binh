@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState, useRef } from "react";
+import cvUrl from '/CV-2026.pdf?url';
 
 const navItems = [
   { name: "Trang chủ", href: "#hero" },
@@ -71,7 +72,7 @@ export const Navbar = () => {
             </a>
           ))}
           <a
-            href="/CV-2026.pdf"
+            href={cvUrl}
             download="Thai Binh - CV-2026.pdf"
             className="px-4 py-2 rounded-full border border-primary text-primary text-sm font-semibold hover:bg-primary/10 transition-colors duration-300"
           >
@@ -110,8 +111,8 @@ export const Navbar = () => {
               </a>
             ))}
             <a
-              href="/CV 2026.pdf"
-              download="Thai Binh - CV 2026.pdf"
+              href={cvUrl}
+              download="Thai Binh - CV-2026.pdf"
               className="px-6 py-3 rounded-full border border-primary text-primary text-lg font-semibold hover:bg-primary/10 transition-colors duration-300 mt-6"
             >
               Download CV
