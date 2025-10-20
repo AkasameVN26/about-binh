@@ -42,7 +42,7 @@ const projects = [
     id: 4,
     title: "Touhou: Goblin Invasion",
     description:
-      "Một dự án Game được truyền cảm hứng bối cảnh cùng dàn nhân vật từ series game vô cùng nổi tiếng Touhou Project, kết hợp cùng gameplay Shoot em up độc đáo.",
+      "Một dự án game khá hoàn chỉnh và đã được publish trên itch.io. Lấy cảm hứng bối cảnh cùng dàn nhân vật từ series game nổi tiếng Touhou Project, gameplay bắn quái và hiệu ứng đồ hoạ đẹp mắt",
     image: "/about-binh/projects/project3.png",
     year: "2022",
     tags: ["Unity"],
@@ -83,7 +83,9 @@ export const ProjectsSection = () => {
               key={project.id}
               className={`timeline-item ${index % 2 === 0 ? "left" : "right"}`}
             >
-              <div className="timeline-year text-primary font-bold">{project.year}</div>
+              <div className="timeline-year text-primary font-bold">
+                {project.year}
+              </div>
               <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                 <div className="h-48 overflow-hidden">
                   {project.image.endsWith(".mp4") ? (
